@@ -1,0 +1,1 @@
+This challenge avenges the demise of Curveball https://github.com/yoni1/BSidesTLV-CTF-2024-writeups/tree/main

@@ -1,0 +1,2 @@
+Newman has done it again!
+He's intercepted Jerry’s important package and is holding it hostage in the admin-only section of his web app. Jerry needs that package back. Can you help Jerry sneak into Newman’s account and reclaim his package?
