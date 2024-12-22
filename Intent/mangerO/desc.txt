@@ -1,2 +1,2 @@
 "Sign me a sheep" asked the little prince.
-echo ""Sign me a sheep" asked the little prince.
+"Do not worry" he added, "I can also decrypt messages you will send to me".

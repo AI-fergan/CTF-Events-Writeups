@@ -1,0 +1,22 @@
+version: '3'
+services:
+  web:
+    build: ./app
+    ports:
+      - "1337:4567"
+    depends_on:
+      - db
+    environment:
+      DATABASE_HOST: db
+      DATABASE_USERNAME: root
+      DATABASE_PASSWORD: password  
+      DATABASE_NAME: ctf_challenge
+      FLAG: INTENT{This_Is_Not_The_Flag}
+    restart: always
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: password  
+      MYSQL_DATABASE: ctf_challenge
+    restart: always

@@ -77,7 +77,7 @@ def execute_code_from_response(response):
         print("[+] No Python code found in response.")
         return response
 
-@app.route("/ask-math", methods=["POST"])
+@app.route("/ask-math", methods=["GET"])
 @limiter.limit("10 per 1 minute")
 def ask_math():
     """Handle math questions, format the prompt, and execute code if necessary."""
